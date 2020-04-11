@@ -6,7 +6,12 @@ body {
   
 
   /* Visual */
-  background-image: url("https://www.grandviewoutdoors.com/uploads/images/red-morning-sky.jpg");
+  background-image: url("https://www.grandviewoutdoors.com/uploads/images/red-morning-sky.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+;
 }
 
 html {
